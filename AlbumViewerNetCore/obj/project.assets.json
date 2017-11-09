@@ -2685,34 +2685,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/10.0.1": {
+      "Newtonsoft.Json/10.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
-          "System.Collections": "4.3.0",
+          "NETStandard.Library": "1.6.1",
           "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.IO": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.ObjectModel": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.Numerics": "4.3.0",
           "System.Runtime.Serialization.Formatters": "4.3.0",
           "System.Runtime.Serialization.Primitives": "4.3.0",
-          "System.Text.Encoding": "4.3.0",
-          "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Text.RegularExpressions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "System.Threading.Tasks": "4.3.0",
-          "System.Xml.ReaderWriter": "4.3.0",
-          "System.Xml.XDocument": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         },
         "compile": {
@@ -4801,6 +4781,19 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "Westwind.Utilities/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3",
+          "System.Data.SqlClient": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Westwind.Utilities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Westwind.Utilities.dll": {}
+        }
+      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -4814,6 +4807,21 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "AlbumViewerBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0",
+          "Newtonsoft.Json": "10.0.3",
+          "Westwind.Utilities": "3.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AlbumViewerBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AlbumViewerBusiness.dll": {}
         }
       }
     }
@@ -7589,11 +7597,12 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/10.0.1": {
-      "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
+    "Newtonsoft.Json/10.0.3": {
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "type": "package",
-      "path": "newtonsoft.json/10.0.1",
+      "path": "newtonsoft.json/10.0.3",
       "files": [
+        "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -7606,9 +7615,11 @@
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
-        "newtonsoft.json.10.0.1.nupkg.sha512",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.10.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
       ]
@@ -12634,6 +12645,21 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "Westwind.Utilities/3.0.1": {
+      "sha512": "e6FxnvUtlWZCJyySP7Yc7Q9fWJghqEzm35wilIS7aFISGtVnCpZf6JzlqkLl1/UgptorptS0bEB8wdB7qDQTSw==",
+      "type": "package",
+      "path": "westwind.utilities/3.0.1",
+      "files": [
+        "lib/net40/Westwind.Utilities.dll",
+        "lib/net40/Westwind.Utilities.xml",
+        "lib/net45/Westwind.Utilities.dll",
+        "lib/net45/Westwind.Utilities.xml",
+        "lib/netstandard2.0/Westwind.Utilities.dll",
+        "lib/netstandard2.0/Westwind.Utilities.xml",
+        "westwind.utilities.3.0.1.nupkg.sha512",
+        "westwind.utilities.nuspec"
+      ]
+    },
     "WindowsAzure.Storage/8.1.4": {
       "sha512": "W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "type": "package",
@@ -12655,10 +12681,16 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "AlbumViewerBusiness/1.0.0": {
+      "type": "project",
+      "path": "../AlbumViewerBusiness/AlbumViewerBusiness.csproj",
+      "msbuildProject": "../AlbumViewerBusiness/AlbumViewerBusiness.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "AlbumViewerBusiness >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Serilog.Extensions.Logging >= 2.0.2",
@@ -12672,11 +12704,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jim/Documents/Src/albumviewer.old/AlbumViewerNetCore.csproj",
+      "projectUniqueName": "/Users/jim/Documents/Src/albumviewerdotnet/AlbumViewerNetCore/AlbumViewerNetCore.csproj",
       "projectName": "AlbumViewerNetCore",
-      "projectPath": "/Users/jim/Documents/Src/albumviewer.old/AlbumViewerNetCore.csproj",
+      "projectPath": "/Users/jim/Documents/Src/albumviewerdotnet/AlbumViewerNetCore/AlbumViewerNetCore.csproj",
       "packagesPath": "/Users/jim/.nuget/packages/",
-      "outputPath": "/Users/jim/Documents/Src/albumviewer.old/obj/",
+      "outputPath": "/Users/jim/Documents/Src/albumviewerdotnet/AlbumViewerNetCore/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -12692,7 +12724,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/jim/Documents/Src/albumviewerdotnet/AlbumViewerBusiness/AlbumViewerBusiness.csproj": {
+              "projectPath": "/Users/jim/Documents/Src/albumviewerdotnet/AlbumViewerBusiness/AlbumViewerBusiness.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -12,3 +12,15 @@
 /Users/jim/Documents/Src/AlbumViewerVNext/src/AlbumViewerNetCore/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.AssemblyInfo.cs
 /Users/jim/Documents/Src/AlbumViewerVNext/src/AlbumViewerNetCore/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.dll
 /Users/jim/Documents/Src/AlbumViewerVNext/src/AlbumViewerNetCore/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.pdb
+/Users/jim/Documents/Src/albumviewerdotnet/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.csproj.CoreCompileInputs.cache
+/Users/jim/Documents/Src/albumviewerdotnet/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/jim/Documents/Src/albumviewerdotnet/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.AssemblyInfoInputs.cache
+/Users/jim/Documents/Src/albumviewerdotnet/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.AssemblyInfo.cs
+/Users/jim/Documents/Src/albumviewerdotnet/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.dll
+/Users/jim/Documents/Src/albumviewerdotnet/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.pdb
+/Users/jim/Documents/Src/albumviewer.old/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.csproj.CoreCompileInputs.cache
+/Users/jim/Documents/Src/albumviewer.old/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/jim/Documents/Src/albumviewer.old/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.AssemblyInfoInputs.cache
+/Users/jim/Documents/Src/albumviewer.old/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.AssemblyInfo.cs
+/Users/jim/Documents/Src/albumviewer.old/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.dll
+/Users/jim/Documents/Src/albumviewer.old/obj/Debug/netcoreapp2.0/AlbumViewerNetCore.pdb
